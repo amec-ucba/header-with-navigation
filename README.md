@@ -1,17 +1,22 @@
-# 💻 Assignment Boilerplate
+# 💻 Header with Navbar
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+The repo for the Header with Navbar coding exercise in Web Design 1. You will build a page from
+scratch with the navigation bar inside the header, then publish it with GitHub Pages.
+
+This repo also includes the editor and Git configuration and the pull request template that every
+assignment in this course uses.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> setup files that keep assignments consistent. Leave them alone. There are no starter files for
+> this exercise — you will create every project file yourself.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the overview, a guide to the companion videos in Canvas, the grading rubric, and a final checklist. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
 
@@ -21,7 +26,7 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
      <img src=".github/images/use-this-template.png" alt="The Use this template button at the top right of the repo page" width="600">
    - Set **Owner** to your GitHub account.
-   - Give it a **Repository name** — use the assignment name, like `assignment-1`.
+   - Give it a **Repository name** — use the assignment name, like `header-with-navigation`.
 
      <img src=".github/images/create-repo-name.png" alt="The Create a new repository form with Owner set to your username and the Repository name filled in" width="600">
    - Set visibility to **Public** (GitHub Pages needs a public repo on a free account).
@@ -44,14 +49,16 @@ It has the requirements, grading criteria, and due date. Read it before you star
 ## 📂 Where Your Files Go
 
 Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into subfolders:
+GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Your files should look like this:
 
 ```
 index.html
-css/style.css
-js/script.js
-images/photo.jpg
+main.css
 ```
+
+Use the stylesheet name from the video if it's different from `main.css`, and make sure the
+`href` in your `<link>` element matches it exactly. If you put the stylesheet in a subfolder
+like `css/`, include the folder in the `href` too (`css/main.css`).
 
 ## 🤖 AI Policy
 
