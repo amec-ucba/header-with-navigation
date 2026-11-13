@@ -27,7 +27,7 @@ from an empty repo. Part 1 builds the HTML, and Part 2 adds the CSS.
 2. **Complete Part 1** by following the *HTML Foundation* video to build the page's HTML.
 3. **Complete Part 2** by following the *Adding the CSS* video to style the page in an
    external stylesheet.
-4. **Publish and submit** your page as described in the [README](README.md).
+4. **Publish and submit** your page as described in the [README](../README.md).
 
 ## 🧠 What You Will Learn
 
@@ -60,13 +60,13 @@ Each video builds on the previous one, so please don't skip ahead.
 >
 > - **Setting up:** don't make a new folder on your desktop. Create your own repo from this
 >   template and open it with GitHub Desktop, as described in the
->   [README](README.md#-getting-started). Create your files inside that repo folder.
+>   [Getting Started guide](GETTING_STARTED.md). Create your files inside that repo folder.
 > - **Naming your file:** name your HTML page **`index.html`**, whatever name the video
 >   uses. GitHub Pages only serves `index.html` at your site's root URL; any other name
 >   gives you a 404.
 > - **Submitting:** don't zip your folder or upload a file. Publish your page to GitHub
 >   Pages and submit a pull request URL in Canvas, as described in the
->   [README](README.md#-submitting-the-assignment).
+>   [Submitting guide](SUBMITTING.md).
 
 > [!IMPORTANT]
 > Open the entire repo **folder** in VS Code, not a single HTML file. Keep `index.html` in
@@ -155,4 +155,4 @@ If something is not working, check these common issues first:
 
 ---
 
-The AI policy and submission instructions are in the [README](README.md).
+The AI policy and submission instructions are in the [README](../README.md).
