@@ -59,7 +59,7 @@ Each video builds on the previous one, so please don't skip ahead.
 > HTML and CSS, and follow this repo for setting up and submitting:
 >
 > - **Setting up:** don't make a new folder on your desktop. Create your own repo from this
->   template and open it with GitHub Desktop, as described in the
+>   template and clone it in WebStorm, as described in the
 >   [Getting Started guide](GETTING_STARTED.md). Create your files inside that repo folder.
 > - **Naming your file:** name your HTML page **`index.html`**, whatever name the video
 >   uses. GitHub Pages only serves `index.html` at your site's root URL; any other name
